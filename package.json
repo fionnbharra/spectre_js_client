@@ -1,0 +1,37 @@
+{
+  "name": "spectre-client",
+  "version": "1.0.9",
+  "description": "Post tests to spectre",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha --colors -w ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "1.7.2",
+    "eslint-loader": "1.1.0",
+    "mocha": "2.3.4",
+    "webpack": "1.12.9",
+    "yargs": "3.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fionnbharra/spectre_js_client"
+  },
+  "keywords": [
+    "spectre"
+  ],
+  "author": "Finbar Sheahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fionnbharra/spectre_js_client/issues"
+  },
+  "homepage": "https://github.com/fionnbharra/spectre_js_client",
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
